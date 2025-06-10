@@ -16,27 +16,30 @@ import React from "react";
  * Need an image? Check out https://unsplash.com to download a image you
  * freely use on your site.
  */
-import image from "../images/motion-background.jpg";
+import image from "../images/moving-background.jpg";
 
-const imageAltText = "purple and blue abstract background";
+const imageAltText = "black and white abstract background";
 
 /**
  * Sort description that expands on your title on the Home component.
  */
 const description =
-  "I'm a UI/UX student studying at Barnett Technical University. I enjoy creating unique and simplistic user interfaces in creative ways.";
+  "I'm Thabang, a Computer Science student at the University of Zululand, passionate about machine learning, software engineering, data science, cybersecurity, and AI. I thrive on building innovative solution. My career goal is to develop secure, impactful technologies that address real-world challenges, while advancing my expertise in AI and cybersecurity. When not coding, I explore cutting-edge tech and contribute to the developer community.";
 
 /**
  * List of some of skills or technologies you work on, are learning,
  * passionate about, or enjoy,
  */
 const skillsList = [
-  "Web design",
-  "User experience",
-  "Inclusive design",
-  "Focus group testing",
-  "Mobile user interfaces",
-  "Graphic design",
+  "Artificial Intelligence",
+  "Cybersecurity",
+  "Cloud Computing",
+  "Internet of Things",
+  "Machine Learning",
+  "Software Engineering",
+  "Data Science",
+  "Web Development",
+  "Tech Exploration",
 ];
 
 /**
@@ -45,7 +48,7 @@ const skillsList = [
  * about you on a professional level.
  */
 const detailOrQuote =
-  "I am passionate about solving problems in new creative ways to drive innovation. By leveraging my UI/UX experience I continually look for new and better ways to make tech accessible by all.";
+  "The best way to predict the future is to create it.";
 
 const About = () => {
   return (
